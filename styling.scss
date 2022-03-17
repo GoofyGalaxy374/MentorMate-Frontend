@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+
+}
+.input-groups{
+    font-family: 'Roboto', sans-serif;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 50%;
+    margin-left: 25%;
+
+    .fa-user{
+        color: rgb(235, 152, 0);
+        font-size: 500%;
+        margin-left: 37%;
+        // border-style: solid;
+        // border-radius: 100%;
+    }
+    .authentication, .checkboxes{
+        display: grid;
+        width: 20%;
+        margin-left: 35%;
+        margin-top: 10%; 
+        
+    }
+    .checkboxes{
+        margin-top: 1%;
+    }
+    .submitBtn{
+        margin-top: 5%;
+        margin-left: -15%;
+        width: 20em;
+        height: 5em;
+        font-weight: 1000;
+        font-size:medium;
+        color: black;
+        background-color: orange;
+        background: linear-gradient(to left, #fc6767, orange);
+        border-radius: 3rem;
+        border: none;
+        transition: 2s linear 2s;
+
+        &:hover{
+            background: linear-gradient(to right, #fc6767, orange);
+            transition: 2s linear 2s;
+
+        }
+    }
+    label{
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .input-group{
+        display: flex;
+        #inputField{
+            margin-left: 5%;
+            margin-top: 4%;
+            border-radius: 5px;
+            width: 120%;
+            border: none;
+            outline: none;
+            transition:  linear 0.5s;
+            border-bottom: solid 1px;
+            
+            &:hover{
+                transition:  linear 0.5s;
+                background-color: rgb(255, 248, 248);
+            }
+            
+        }
+        
+    }
+    .countrySelection{    
+        margin-top: 4%; 
+        display: grid;
+        .countrySelect{
+            // margin-left: 5%;
+            margin-top: 2%;
+            width: 100%;
+            border-radius: 5px; 
+        }
+
+    }
+    .description{
+        display: grid;
+        margin-top: 4%;
+        .descriptionBox{
+            // margin-left: 4%;
+        }
+    }
+    textarea{
+        font-size: 1rem;
+        line-height: 1.5em;
+        border-radius: 5px;
+    }
+    hr{
+        width: 100%;
+    }
+}

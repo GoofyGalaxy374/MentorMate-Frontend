@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.input-groups {
+  font-family: 'Roboto', sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.input-groups .fa-user {
+  color: #eb9800;
+  font-size: 500%;
+  margin-left: 37%;
+}
+
+.input-groups .authentication, .input-groups .checkboxes {
+  display: -ms-grid;
+  display: grid;
+  width: 20%;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.input-groups .checkboxes {
+  margin-top: 1%;
+}
+
+.input-groups .submitBtn {
+  margin-top: 5%;
+  margin-left: -15%;
+  width: 20em;
+  height: 5em;
+  font-weight: 1000;
+  font-size: medium;
+  color: black;
+  background-color: orange;
+  background: -webkit-gradient(linear, right top, left top, from(#fc6767), to(orange));
+  background: linear-gradient(to left, #fc6767, orange);
+  border-radius: 3rem;
+  border: none;
+  -webkit-transition: 2s linear 2s;
+  transition: 2s linear 2s;
+}
+
+.input-groups .submitBtn:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#fc6767), to(orange));
+  background: linear-gradient(to right, #fc6767, orange);
+  -webkit-transition: 2s linear 2s;
+  transition: 2s linear 2s;
+}
+
+.input-groups label {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.input-groups .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input-groups .input-group #inputField {
+  margin-left: 5%;
+  margin-top: 4%;
+  border-radius: 5px;
+  width: 120%;
+  border: none;
+  outline: none;
+  -webkit-transition: linear 0.5s;
+  transition: linear 0.5s;
+  border-bottom: solid 1px;
+}
+
+.input-groups .input-group #inputField:hover {
+  -webkit-transition: linear 0.5s;
+  transition: linear 0.5s;
+  background-color: #fff8f8;
+}
+
+.input-groups .countrySelection {
+  margin-top: 4%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.input-groups .countrySelection .countrySelect {
+  margin-top: 2%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.input-groups .description {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 4%;
+}
+
+.input-groups textarea {
+  font-size: 1rem;
+  line-height: 1.5em;
+  border-radius: 5px;
+}
+
+.input-groups hr {
+  width: 100%;
+}
+/*# sourceMappingURL=styling.css.map */

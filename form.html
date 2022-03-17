@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <form>
+            <div class="input-groups">
+                
+                <div class="authentication">
+                    
+                    <i class="fa fa-user"></i>    
+                    <hr>
+                    <div class="input-group">
+                        <label for="firstNameInput"> First Name: </label>
+
+                        <input id='inputField' type="text" placeholder="Enter your first name">
+                    </div>
+                    <div class="input-group">
+                        <label for="lastNameInput"> Last Name: </label>
+
+                        <input id = 'inputField' type="text" placeholder="Enter your last name">
+                    </div>
+                    <div class="input-group countrySelection">
+                        <label for="countrySelection"> Country: </label>
+
+                        <select class="countrySelect"> 
+                            <option value="USA">USA</option>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="Finland">Finland</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Romania">Romania</option>
+                            <option value="Bulgaria">Bulgaria</option>
+                        </select>
+                    </div>
+                    
+                    
+                    <div class="input-group description">
+
+                        <label> Description: </label>
+                        
+                        <textarea class="descriptionBox">
+                            
+                        </textarea>
+                    </div>
+
+                </div>
+
+                <div class="checkboxes">
+                    
+                    <div class="checkbox">
+                        <input type="radio" id="genderBox" name="genderBox">
+                        <i class="fa fa-mars"></i> <label>Male </label> 
+                    </div>
+                    
+                    <div class="checkbox">
+                        <input type="radio" id="genderBox" name="genderBox">
+                        <i class="fa fa-venus "></i> <label>Female</label> 
+                    </div>
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="dataBox" name="dataBox">
+                        <i class="fa fa-lock "></i> <label>I agree with the data policy</label> 
+                    </div>
+                    
+                    <input class = 'submitBtn' type="submit" value="Submit">
+
+                </div>
+            </div>
+
+                
+               
+
+        </form>
+    </body>
+</html>
