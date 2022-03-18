@@ -38,15 +38,11 @@
   background: linear-gradient(to left, #fc6767, orange);
   border-radius: 3rem;
   border: none;
-  -webkit-transition: 2s linear 2s;
-  transition: 2s linear 2s;
 }
 
 .input-groups .submitBtn:hover {
   background: -webkit-gradient(linear, left top, right top, from(#fc6767), to(orange));
   background: linear-gradient(to right, #fc6767, orange);
-  -webkit-transition: 2s linear 2s;
-  transition: 2s linear 2s;
 }
 
 .input-groups label {
@@ -104,5 +100,35 @@
 
 .input-groups hr {
   width: 100%;
+}
+
+@media only screen and (max-height: 771.98px) and (max-width: 968px) {
+  .input-groups .fa-user {
+    margin-left: 55%;
+  }
+  .input-groups .input-group #inputField {
+    width: initial !important;
+  }
+  .input-groups .authentication, .input-groups .checkboxes {
+    margin-left: 10%;
+  }
+  .input-groups .submitBtn {
+    margin-left: initial;
+  }
+  .input-groups .input-group {
+    margin-left: 15%;
+  }
+  .input-groups .countrySelection .countrySelect {
+    width: 125%;
+  }
+  .input-groups textarea {
+    width: 125%;
+  }
+  .checkboxes .checkbox {
+    margin-left: 10%;
+  }
+  .input-groups hr {
+    margin-left: 17.5%;
+  }
 }
 /*# sourceMappingURL=styling.css.map */
