@@ -14,8 +14,7 @@
 }
 
 .input-groups .authentication, .input-groups .checkboxes {
-  display: -ms-grid;
-  display: grid;
+  display: block;
   width: 20%;
   margin-left: 35%;
   margin-top: 10%;
@@ -38,6 +37,7 @@
   background: linear-gradient(to left, #fc6767, orange);
   border-radius: 3rem;
   border: none;
+  margin-left: initial;
 }
 
 .input-groups .submitBtn:hover {
@@ -102,33 +102,41 @@
   width: 100%;
 }
 
-@media only screen and (max-height: 771.98px) and (max-width: 968px) {
+@media only screen and (max-width: 968px) {
+  .authentication {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
+  .input-groups {
+    border-style: none;
+    width: initial;
+    margin-left: initial;
+  }
   .input-groups .fa-user {
-    margin-left: 55%;
+    margin-left: 47%;
   }
-  .input-groups .input-group #inputField {
-    width: initial !important;
-  }
-  .input-groups .authentication, .input-groups .checkboxes {
+  .checkboxes {
     margin-left: 10%;
+    display: block;
+  }
+  .checkbox {
+    display: block;
+    white-space: nowrap;
   }
   .input-groups .submitBtn {
     margin-left: initial;
-  }
-  .input-groups .input-group {
-    margin-left: 15%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .input-groups .countrySelection .countrySelect {
-    width: 125%;
+    width: 100%;
   }
   .input-groups textarea {
-    width: 125%;
-  }
-  .checkboxes .checkbox {
-    margin-left: 10%;
-  }
-  .input-groups hr {
-    margin-left: 17.5%;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styling.css.map */
