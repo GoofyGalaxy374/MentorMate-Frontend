@@ -85,9 +85,7 @@
     .description{
         display: grid;
         margin-top: 4%;
-        .descriptionBox{
-            // margin-left: 4%;
-        }
+
     }
     textarea{
         font-size: 1rem;
@@ -100,49 +98,57 @@
 }
 
 @media only screen and (max-width: 968px)
-                   {
-                    .authentication{
-                        width:100% !important;
-                        margin-left: 0% !important;
-                    }
-                    .input-groups{
-                            border-style: none;
-                            width: initial;
-                            margin-left: initial;
-                        }
-                    .input-groups .fa-user
-                    {
-                        margin-left: 47%;
-                    }
+        {
+            .authentication
+            {
+                width:100% !important;
+                margin-left: 0% !important;
+            }
 
-                    .checkboxes
-                    {
-                        margin-left: 10%;
-                        display: block;
-                    }
-                    
-                    .checkbox{
-                        display: block;
-                        white-space: nowrap;
-                    }
-                    .input-groups .submitBtn
-                    {
-                        margin-left: initial;
-                        position: absolute;
-                        left: 0;
-                        right: 0;
-                        bottom: 0;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    .input-groups .countrySelection .countrySelect
-                    {
-                        width: 100%;
-                    }
-                    .input-groups textarea
-                    {
-                        width: 100%;
-                    }
+            .input-groups
+            {
+                    border-style: none;
+                    width: initial;
+                    margin-left: initial;
+            }
 
-                   }
+            .input-groups .fa-user
+            {
+                margin-left: 47%;
+            }
+
+            .checkboxes
+            {
+                margin-left: 10%;
+                display: block;
+            }
+            
+            .checkbox
+            {
+                display: block;
+                white-space: nowrap;
+            }
+
+            .input-groups .submitBtn
+            {
+                margin-left: initial;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .input-groups .countrySelection .countrySelect
+            {
+                width: 100%;
+            }
+
+            .input-groups textarea
+            {
+                width: 100%;
+            }
+        }
+
     
