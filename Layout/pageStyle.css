@@ -1,14 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap");
+.logo {
+  width: 150px;
+}
 
-    .logo{
-        width: 150px;
-    }
-    .heading-container{
-        background-color: #F4DDDD;
-        margin: 10px 10px 10px 10px;
-    }
-    .company-title{
-        font-size: 30px;
-        font-family: 'Roboto', sans-serif;
-        margin-block-start: 30px;
-    }
+.heading-container {
+  background-color: #F4DDDD;
+  /* margin: 10px 10px 10px 10px; */
+  padding: 10px;
+}
+
+.company-title {
+  font-size: 30px;
+  font-family: 'Baloo 2', cursive;
+  position: absolute;
+  /* margin: 10px 10px 10px 10px; */
+  padding: 10px;
+  right: 30px;
+}
+
+.menu {
+  background-color: #BBB;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu ul li {
+  margin-left: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.body-container {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: left;
+}
+
+.body-container .body-content .main-photo {
+  width: 350px;
+  float: left;
+}
+
+.body-container .body-content .main-content {
+  width: 800px;
+  display: block;
+}
+
+.footer-container {
+  background-color: #BBB;
+}
+/*# sourceMappingURL=pageStyle.css.map */
